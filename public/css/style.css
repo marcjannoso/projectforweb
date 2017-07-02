@@ -1,0 +1,55 @@
+.btn, .form-control {
+	border-radius: 0;
+}
+.btn-h1-spacing {
+	margin-top: 23px;
+}
+
+.form-spacing-top {
+	margin-top: 20px;
+}
+
+.login-spacing-top {
+	margin-top: 8px;
+}
+
+.nolink, .nolink:hover {
+	color: black;
+}
+
+.taglink, .taglink:hover {
+	color: white;
+}
+
+.glyphicon-tags {
+	font-size: 12px;
+}
+
+.comment-font {
+	font-size: 16px;
+	color: darkgrey;
+}
+
+.author-image {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.author-name {
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.comment-content {
+	clear: both;
+	margin-top: 15px;
+}
+
+.featured-image {
+	width: 100%;
+	height: auto;
+	max-height: 350px;
+	object-fit: cover;
+}
