@@ -22,7 +22,7 @@
 
 		public function getAbout() {
 			
-			$name = "Apal";
+			$name = "janno";
 
 			return view('pages.about') -> withName($name);
 
@@ -51,7 +51,7 @@
 			Mail::send('emails.contact', $data, function($message) use ($data) {
 
 				$message->from($data['email']);
-				$message->to('apalshah21121996@gmail.com');
+				$message->to('janno87@gmail.com');
 				$message->subject($data['subject']);
 
 			});
